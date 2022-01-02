@@ -71,7 +71,14 @@ form input[type="button"] {
     cursor: pointer;
 }
 
-#age{
+#age {
     margin-top: 30px;
     color: #fff;
+}
+
+@media screen and (max-width:540px) {
+    .form {
+        margin: 0 auto;
+        width: 100%;
+    }
 }
